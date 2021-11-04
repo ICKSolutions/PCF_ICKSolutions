@@ -1,0 +1,138 @@
+.ICK\.ProbabilityRatingControl .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.3;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+    .ICK\.ProbabilityRatingControl .slider:hover {
+        opacity: 0.4;
+    }
+
+    .ICK\.ProbabilityRatingControl .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 10px;
+        height: 25px;
+        background: black;
+        cursor: pointer;
+    }
+
+    .ICK\.ProbabilityRatingControl .slider::-moz-range-thumb {
+        width: 10px;
+        height: 25px;
+        background: black;
+        cursor: pointer;
+    }
+
+.ICK\.ProbabilityRatingControl .probability-class {
+    position: relative;
+    width: 96%;
+    font-family: poppins;
+}
+
+    .ICK\.ProbabilityRatingControl .probability-class div {
+        position: relative;
+        height: 20px;
+        line-height: 20px;
+        margin: 2px 0;
+        right: 0px;
+        color: white;
+        text-shadow: 0 0 2px #000;
+        min-width: 35px;
+        text-align: left;
+        padding-left: 5px;
+    }
+
+        .ICK\.ProbabilityRatingControl .probability-class div:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 100%;
+            background: transparent;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+        .ICK\.ProbabilityRatingControl .probability-class div:after {
+            position: absolute;
+            top: 0;
+            right: 0.25em;
+            height: 20px;
+            line-height: 20px;
+            color: #fff;
+            text-shadow: 0 0 2px #000;
+            text-transform: uppercase;
+        }
+
+        .ICK\.ProbabilityRatingControl .probability-class div.moreeighty-probabilityrating {
+            background: #3b7634;
+            display: block;
+        }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.moreeighty-probabilityrating:before {
+                border-left: 8px solid #3b7634;
+            }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.moreeighty-probabilityrating:after {
+                content: ' accord oral';
+            }
+
+        .ICK\.ProbabilityRatingControl .probability-class div.moresixty-probabilityrating {
+            background: #5da436;
+            display: block;
+        }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.moresixty-probabilityrating:before {
+                border-left: 8px solid #5da436;
+            }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.moresixty-probabilityrating:after {
+                content: ' bon retour proposition';
+            }
+
+        .ICK\.ProbabilityRatingControl .probability-class div.moreforty-probabilityrating {
+            background: #a3cf2a;
+            display: block;
+        }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.moreforty-probabilityrating:before {
+                border-left: 8px solid #a3cf2a;
+            }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.moreforty-probabilityrating:after {
+                content: ' bon retour presentation';
+            }
+
+        .ICK\.ProbabilityRatingControl .probability-class div.morethirty-probabilityrating {
+            background: #f6df1b;
+            display: block;
+        }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.morethirty-probabilityrating:before {
+                border-left: 8px solid #f6df1b;
+            }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.morethirty-probabilityrating:after {
+                content: ' retour proposition mitige';
+            }
+
+        .ICK\.ProbabilityRatingControl .probability-class div.moreten-probabilityrating {
+            background: #f29020;
+            display: block;
+        }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.moreten-probabilityrating:before {
+                border-left: 8px solid #f29020;
+            }
+
+            .ICK\.ProbabilityRatingControl .probability-class div.moreten-probabilityrating:after {
+                content: ' lead identifie';
+            }
+
